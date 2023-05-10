@@ -12,6 +12,7 @@ The zipped file should be renamed under your registration number. Eg: ICT_1920_0
 
 # Bugs
 01.Mobile Responsiveness - Fix Pending
+#
 
 # INDEX : 4840
 # REG. NO : ASP/19/20/100
