@@ -1,6 +1,5 @@
 # portfolio
-Assignment 02 - Individual Assignment
-<br>
+
 Rajarata University of Sri Lanka
 <br>
 Faculty of Applied Sciences
