@@ -1,0 +1,404 @@
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+/* Reset styles for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Style the header section */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f00;
+  }
+  
+  /* Style the main section */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the sidebar section */
+  aside {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  aside h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  aside ul {
+    list-style: none;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+  }
+  
+  aside a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  aside a:hover {
+    color: #f00;
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  footer li {
+    margin-right: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #f00;
+  }
+
+  /* Style the round profile picture */
+.round {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  /* Style the header logo */
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  /* About */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .grid-item h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li strong {
+    display: inline-block;
+    width: 120px;
+  }
+
+  /* Skills */
+
+  #skills h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .bar {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .bar span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 1rem;
+    font-size: 0.8rem;
+  }
+
+  /*portfolio*/
+  #portfolio {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+  }
+  
+  #portfolio h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .item iframe {
+    width: 100%;
+  }
+
+  /*CSS media queries*/
+
+  /* Small screens */
+@media (max-width: 767px) {
+  /* Style the header for small screens */
+  header {
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    font-size: 14px;
+  }
+  
+  /* Style the main section for small screens */
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  aside {
+    max-width: none;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  footer {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  footer ul {
+    margin-bottom: 10px;
+  }
+  
+  footer li {
+    margin-right: 5px;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Style the header for medium screens */
+  header {
+    padding: 15px;
+  }
+  
+  .logo img {
+    height: 35px;
+  }
+  
+  nav li {
+    margin-right: 15px;
+  }
+  
+  nav a {
+    font-size: 16px;
+  }
+  
+  /* Style the main section for medium screens */
+  main {
+    padding: 30px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 15px;
+  }
+  
+  aside {
+    max-width: none;
+    margin: 30px auto;
+    padding: 15px;
+  }
+  
+  footer {
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer li {
+    margin-right: 8px;
+  }
+}
+
