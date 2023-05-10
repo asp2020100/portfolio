@@ -6,7 +6,7 @@ Rajarata University of Sri Lanka
 Faculty of Applied Sciences
 <br>
 ICT2204/COM2303 Web Design and Technologies
-<br>
+<br><br>
 Assignment 02 - Individual Assignment
 <br>
 Deadline : 20th May 2023 - 10.30 PM
